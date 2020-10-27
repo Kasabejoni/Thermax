@@ -1,0 +1,142 @@
+@import "nav.css";
+@import "footer.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.main1 {
+    background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--bQu-AAoS--/c_scale,f_auto,fl_progressive,q_80,w_800/ynh6tptp6tz4rpektv8p.jpg");
+
+    margin-right: 390px;
+background-position: 95% 37%;
+    
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    color: #15121c;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 10px 10px;
+}
+.sidenav {
+    
+    text-align: left;
+    height: 498px;
+    width: 300px;
+    position: initial;
+    z-index: 1;
+    top: 7px;
+    left: 100px;
+    background-color: WHITE;
+    overflow-x: hidden;
+    padding-top: 2px;
+    border: black;
+}
+.sidenav a {
+    margin: 5px;
+    padding: 6px 8px 6px 1px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: justify-all;
+    color: black;
+    display: block;
+    
+}
+
+.header a {
+    border: 6px;
+    border-radius: 40px;
+    margin-top: 300px;
+    margin-left: 270px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    letter-spacing: 5px; /*space between letters*/
+    padding: 15px 37px;
+    font-size: 16px;
+    top: 100px;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer;
+    alignment: center;
+    background-attachment: initial;
+}
+
+.header a:hover {
+    
+    color: #15121c;
+    opacity: 0.5;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background-color: #76D3fC;;
+    
+    
+    
+}
+
+@media screen and (max-width: 470px) {
+    .menu{width: 100% }
+    .menu{height: 40%}
+    .menu {position: static;
+        display: flex;
+        font-size: large;
+    }
+    .search-form{
+        display: none;
+        height: 100px;
+        width: 100px;
+    }
+    .logo {
+        display: -ms-flex;
+        mso-font-width: 10px;
+        padding: 1px;
+    }
+    .header {
+        width: 2px;
+        padding: 100px;
+    }
+  .header a {
+  }
+        .main1{
+      background-size: initial;
+            padding-top: 400px;
+            position: static;
+        }
+
+
+
+  
+  
+ 
+    .sidenav{display: none}
+    .footer{height: 10px;
+    overflow: hidden;}
+
+}
+
+
+
+    
+    .header{
+        position: sticky;
+        text-align: justify;
+        min-height: 100px;
+        width: 100%;
+        
+        background-size: cover;
+        display: flex;
+        top: 100px;
+        right: 200px;
+        justify-content: left;
+        align-items: center;
+        letter-spacing: 2px;
+    }

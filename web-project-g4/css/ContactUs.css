@@ -1,0 +1,78 @@
+@import "nav.css";
+@import "footer.css";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.Main{
+    margin-top: 63px;
+    width: 550px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    background: #f8f8f9;
+}
+
+.header h1{
+    color: #76D3fC;
+    font-size: 46px;
+    letter-spacing: 2px;
+}
+
+.header p{
+    color: #4c495a;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.form{
+    position: relative;
+    text-align: center;
+}
+
+.form input{
+    width: 80%;
+    margin: 20px 0;
+    background: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid teal;
+}
+.form textarea{
+    width: 80%;
+    margin: 20px 0;
+    background: rgba(0,0,0,0);
+    border: 1px solid teal;
+}
+
+.form button {
+    background-color: #4c495a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 32px;
+    font-size: 16px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-top: 4px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form button:hover{
+    opacity: 1;
+    background: #76D3FC;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+body {
+    background-color: #fdfdfd;
+}

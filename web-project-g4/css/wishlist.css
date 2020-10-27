@@ -1,0 +1,128 @@
+@import "nav.css";
+@import "footer.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.image { float: left; width: 23%; }
+.description { float: left; width: 20%; }
+.price { float: left; width: 12%; }
+.quantity { float: left; width: 10%; }
+.p-remove { float: left; width: 5%; text-align: center; }
+.price-total {float: left; width: 11%; text-align: right;}
+
+.group:before,
+.shopping-cart:before,
+.column-labels:before,
+.item:before,
+.totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.item:after,
+.totals-item:after {
+    content: "";
+    display: table;
+}
+.group:after, .shopping-cart:after,
+.column-labels:after,
+.item:after,
+.totals-item:after {
+    clear: both;
+}
+.group, .shopping-cart,
+.column-labels,
+.item,
+.totals-item {
+    zoom: 1;
+}
+
+
+
+body {
+    padding: 0px 0px 30px 0px;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: bold;
+    padding: 80px 0px 10px 50px;
+    color:#76D3fC;
+}
+
+.shopping-cart {
+    margin-top: -45px;
+    
+}
+.column-labels label {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.column-labels .image,
+.column-labels .description,
+.column-labels .p-remove {
+    text-indent: -9999px; /*no need for titles*/
+}
+
+/*item data*/
+
+.item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.item.image {
+    text-align: center;
+}
+.item.image img {
+    width: 100px;
+}
+
+
+
+item.description.p-title {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+item.description.p-description {
+    margin: 5px 20px 5px 0;
+    line-height: 1.4em;
+}
+
+
+
+item.quantity.input {
+    width: 10px;
+    font-size: 10px;
+    color: #43484D;
+}
+
+
+item.p-remove {
+    border: 0;
+    padding: 4px 8px;
+    background-color: #76D3fC;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+item.p-remove:hover {
+    background-color: #a44;
+}
+
+
+
+body {
+    padding: 0px 0px 30px 0px;
+    font-weight: 100;
+}
+
